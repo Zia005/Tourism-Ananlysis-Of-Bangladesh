@@ -1,0 +1,142 @@
+body{
+   width:720px;
+   margin: 16px auto;
+   border:1px solid black;
+   font-family: segoe ui;
+}
+
+header { 
+    padding: 16px;
+    background-color: #F7F7F7;
+}
+
+h1{
+    text-align: center;
+    color: #EB1D26;
+    font-size: 28px;
+    border-bottom:1px solid lightgray;
+    padding-bottom: 16px;
+    font-family: segoe ui light;
+}
+
+img { 
+    display: block;
+    margin: auto;
+}
+   
+p {
+    text-align:justify;
+}
+
+
+div.group {
+    margin: 8px 0px;
+}
+
+label {
+    display: block;
+    margin: 4px 0px;
+}
+
+#form {
+    padding: 16px;
+}
+
+#form p{
+    padding-bottom: 14px;
+    border-bottom: 1px solid lightgray;
+}
+
+#form p:last-child {
+    border-width: 0;
+}
+
+#form input[type="text"], select, button {
+    display: block;
+    width: 100%; 
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+}
+
+.selectGroup {
+    width: 100%;
+}
+
+.selectGroup select {
+    display: inline;
+    width: 32.9%;
+}
+
+button{
+    padding: 10px;
+    color: white;
+    background: #EB1D26;
+    border-width: 0;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-top: 16px;
+    font-size: 18px;
+    transition: background 1s;
+}
+
+button:hover { 
+    background-color: #0078D7;
+}
+
+button.disable {
+    background-color: lightgray;
+    color: black;
+    cursor: wait;
+}
+
+span.hint { 
+    display: none;
+    color: red;
+    width: 98%;
+    padding: 4px 1%;
+    background-color: #D9534F;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-family: segoe ui;
+        width: 0%;
+        width: 100%;
+        margin: auto;
+        background: white;
+        padding: 0%;
+        padding: 0%;
+        border-width: 0px;
+        
+    }
+
+    .selectGroup select {
+        width: 31.8%;
+    }
+}  
+
+
+img#gift {
+    display: block;
+    width: 85%;
+    margin: auto;
+    border-radius: 1px;
+    border: 1px solid black;
+    border-bottom-width: 0px;
+}
+
+span#goodbye {
+    display: block;
+    width: 85%;
+    margin: -1px auto;
+    text-align: center;
+    padding: 1em 0em;
+    background-color: rgb(0, 120, 215);
+    color: white;
+    border-radius: 2px;
+    border: 1px solid black;
+    border-top-width: 0px;
+    cursor: pointer;
+}
